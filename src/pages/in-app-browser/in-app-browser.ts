@@ -20,7 +20,7 @@ export class InAppBrowserPage implements OnInit {
 
   ngOnInit(){
     //const browser = this.iab.create('https://ionic.io','_self',{location:'no'}); 
-    const browser = this.iab.create('hello.html','_self',{location:'yes'});
+    const browser = this.iab.create('https://radiant-brushlands-62644.herokuapp.com/','_self',{location:'yes'});
     browser.on('loadstop').subscribe(event => {
       console.log('loadstop');
       browser.insertCSS({ code: "body{color: red;" });

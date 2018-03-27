@@ -1,6 +1,6 @@
 {
   "name": "SantanderApp",
-  "app_id": "",
+  "app_id": "3f72ef37",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
